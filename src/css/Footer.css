@@ -1,0 +1,15 @@
+footer {
+    display:flexbox;
+    background: #3d4379;
+    color: white;
+    height: min-content;
+    width: 100%;
+    justify-content: center;
+    padding: 25px;    
+}
+
+footer a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  

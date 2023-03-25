@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
