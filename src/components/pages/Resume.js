@@ -1,16 +1,14 @@
 import React from 'react';
+import '../../css/About.css';
 
 export default function About() {
   return (
     <div>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+        <h2>Resume</h2>
+        <p>
+            "If you want to learn more about my skills and experience, be sure to check out my downloadable resume. It provides a detailed overview of my education, work history, and technical expertise. With my resume, you'll get a sense of what I bring to the table as a web developer and what sets me apart from the rest. So take a look and see for yourself why I'm the right fit for your project."
+        </p>
+        <a href = '../../docs/Resume.pdf' download="resume.pdf">Click for resume</a>
     </div>
   );
 }
