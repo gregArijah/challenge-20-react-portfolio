@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/Navbar.css';
+import '../css/Header.css';
 
-function Navbar() {
+function Header() {
   return (
-    <nav className='navbar'>
+    <nav className='header'>
       <span className='name'>Greg Griffith</span>
       <section className='pages'>
         <a href = '/'>About Me</a>
@@ -15,4 +15,4 @@ function Navbar() {
   );
 } 
 
-export default Navbar;
+export default Header;

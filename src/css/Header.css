@@ -1,4 +1,4 @@
-.navbar {
+.header {
     display:flex;
     background: #3d4379;
     height: 150px;
@@ -7,7 +7,7 @@
     align-items: end;
   }
   
-.navbar .name {
+.header .name {
 display: flex;
 color: white;
 font-size: 40px;
@@ -18,7 +18,7 @@ margin-left: 50px;
 
 }
 
-.navbar .pages {
+.header .pages {
 justify-content: right;
 text-align: right;
 font-size: 25px;
@@ -26,7 +26,7 @@ margin: 50px;
 margin-bottom: 50px;
 }
 
-.navbar .pages a{
+.header .pages a{
   padding: 10px;
   
 }
