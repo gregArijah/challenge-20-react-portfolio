@@ -9,6 +9,17 @@ export default function Contact() {
   const [Email, setEmail] = useState('');
   const [Message, setMessage] = useState('');
 
+    const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
@@ -34,6 +45,7 @@ export default function Contact() {
               name="Name"
               type="text"
               placeholder="Enter your name"
+              onChange={handleNameChange}
             />
           </div>  
           <div className="form-group">
@@ -43,10 +55,11 @@ export default function Contact() {
               name="Email"
               type="text"
               placeholder="Enter your email address"
+              onChange={handleEmailChange}
             />
           </div>   
           <div className="form-group">
-          <label htmlFor='name'>Message</label>
+          <label htmlFor='message'>Message</label>
             <textarea
               className="form-control"
               value={Message}
@@ -54,6 +67,7 @@ export default function Contact() {
               type="text"
               placeholder="Leave a message"
               rows="5"
+              onChange={handleMessageChange}
             />
           </div> 
           <Button onClick={handleFormSubmit}>
