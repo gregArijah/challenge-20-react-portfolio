@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../css/About.css';
+import Razor from '../../images/swatkats_razor.png'
 
 export default function About() {
   return (
     <div>
-        <h2>About me</h2>
-        <img src= "../../images/swatkats_razor.png" alt="Razor" height="200" width="200"/>
+        <h2>About Me</h2>
+        <img src= {Razor} alt="Razor" />
         <p>
-            "Hello I'm Greg, a full stack developer with a background in manufacturing and CNC machining. With experience in using CAD/CAM software and programming G-code, I've developed a keen eye for detail and precision which translates well into my work as a developer. My passion is building technical applications that solve real-world problems. I enjoy the creative process of combining technical skills to develop apps that are both user-friendly and functionally robust. The endless possibilities of what I can create and the constant learning to stay up-to-date with the latest technologies in software development excites me. My goal is to use my expertise to build tools and applications that contribute to the manufacturing industry. I'm eager to showcase my work through my portfolio and collaborate on exciting projects."
+            Hello I'm Greg, a full stack developer with a background in manufacturing and CNC machining. With experience in using CAD/CAM software and programming G-code, I've developed a keen eye for detail and precision which translates well into my work as a developer. My passion is building technical applications that solve real-world problems. I enjoy the creative process of combining technical skills to develop apps that are both user-friendly and functionally robust. The endless possibilities of what I can create and the constant learning to stay up-to-date with the latest technologies in software development excites me. My goal is to use my expertise to build tools and applications that contribute to the manufacturing industry. I'm eager to showcase my work through my portfolio and collaborate on exciting projects.
         </p>
     </div>
   );

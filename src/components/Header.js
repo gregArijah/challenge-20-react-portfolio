@@ -1,17 +1,26 @@
 import React from 'react';
 import '../css/Header.css';
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
   return (
-    <nav className='header'>
+    <header className='header'>
       <span className='name'>Greg Griffith</span>
       <section className='pages'>
-        <a href = '/'>About Me</a>
-        <a href = '/'>Portfolio</a>
-        <a href = '/'>Resume</a>
-        <a href = '/'>Contact</a>
+        <a href = '#about' onClick={()=>handlePageChange('About')}  className={currentPage === 'About' ? 'active' : ''}>
+          About Me
+        </a>
+        <a href = '#portfolio' onClick={()=>handlePageChange('Portfolio')}  className={currentPage === 'Portfolio' ? ' active' : ''}>
+          Portfolio
+        </a>
+        <a href = '#resume' onClick={()=>handlePageChange('Resume')}  className={currentPage === 'Resume' ? 'active' : ''}>
+          Resume
+        </a>
+        <a href = '#contact' onClick={()=>handlePageChange('Contact')}  className={currentPage === 'Contact' ? ' active' : ''}>
+          Contact
+        </a> 
+        
       </section>
-    </nav>
+    </header>
   );
 } 
 
