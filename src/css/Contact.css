@@ -1,0 +1,28 @@
+.form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 15px;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+}
+
+label {
+font-weight: bold;
+}
+
+input,
+textarea {
+padding: 0.5rem;
+border-radius: 0.25rem;
+border: 1px solid #ccc;
+}
+
+Button{
+    width:fit-content;
+    margin-bottom:10px;
+}

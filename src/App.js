@@ -6,7 +6,7 @@ import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Navigation />
       <Footer />
     </div>

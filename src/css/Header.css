@@ -1,31 +1,4 @@
-.header {
-    display:flex;
-    background: #3d4379;
+.navbar {
     height: 150px;
-    width: 100%;
-    justify-content:left;
-    align-items: end;
   }
   
-.header .name {
-display: flex;
-color: white;
-font-size: 40px;
-margin-bottom: 50px;
-margin-right: 20%;
-margin-left: 50px;
-
-}
-
-.header .pages {
-justify-content: right;
-text-align: right;
-font-size: 25px;
-margin: 50px;
-margin-bottom: 50px;
-}
-
-.header .pages a{
-  padding: 10px;
-}
-
