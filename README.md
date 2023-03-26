@@ -33,5 +33,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![full-screenshot](./public/screenshot/aboutme_full.jpeg)
 ![full-screenshot](./public/screenshot/portfolio_full.jpeg)
 ![mobile-screenshot-portfolio](./public/screenshot/portfoliomobile.jpeg)
-![mobile-screenshot-contact](./public/screenshot/contract.jpeg)
+![mobile-screenshot-contact](./public/screenshot/contactmobile.jpeg)
 
