@@ -12,7 +12,7 @@ function Footer() {
           <a href = 'https:/.www.linkedin.com'>Linkedin</a>
         </div>
         <div className='col'>
-          <a href = '/'>Contact</a>
+          <a href = 'https://twitter.com/'>Twitter</a>
         </div>
   
       </div>
