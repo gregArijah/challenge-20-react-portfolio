@@ -32,6 +32,20 @@ const cardData = [
     description: 'Everybody is a running body.',
     app: 'https://bootcamp.learn.utoronto.ca/',
     repo: 'https://bootcamp.learn.utoronto.ca/'
+  },
+  {
+    title: 'Run Buddy',
+    image: runbuddy,
+    description: 'Everybody is a running body.',
+    app: 'https://bootcamp.learn.utoronto.ca/',
+    repo: 'https://bootcamp.learn.utoronto.ca/'
+  },
+  {
+    title: 'Run Buddy',
+    image: runbuddy,
+    description: 'Everybody is a running body.',
+    app: 'https://bootcamp.learn.utoronto.ca/',
+    repo: 'https://bootcamp.learn.utoronto.ca/'
   }
 ];
 
