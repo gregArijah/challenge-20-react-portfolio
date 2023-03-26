@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import {Button}  from 'react-bootstrap';
-
 import '../../css/Contact.css';
-
 
 export default function Contact() {
   const [Name, setName] = useState('');
@@ -29,7 +27,8 @@ export default function Contact() {
     setName('');
     setEmail('');
     setMessage('');
-  };    
+  };
+  
   return (
     <div className='container'>
         <h2>Contact</h2>
