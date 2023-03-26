@@ -6,16 +6,16 @@ function Header({ currentPage, handlePageChange }) {
     <header className='header'>
       <span className='name'>Greg Griffith</span>
       <section className='pages'>
-        <a href = '#about' onClick={()=>handlePageChange('About')}  className={currentPage === 'About' ? 'active' : ''}>
+        <a href = '#about' onClick={()=>handlePageChange('About')} >
           About Me
         </a>
-        <a href = '#portfolio' onClick={()=>handlePageChange('Portfolio')}  className={currentPage === 'Portfolio' ? ' active' : ''}>
+        <a href = '#portfolio' onClick={()=>handlePageChange('Portfolio')} >
           Portfolio
         </a>
-        <a href = '#resume' onClick={()=>handlePageChange('Resume')}  className={currentPage === 'Resume' ? 'active' : ''}>
+        <a href = '#resume' onClick={()=>handlePageChange('Resume')} >
           Resume
         </a>
-        <a href = '#contact' onClick={()=>handlePageChange('Contact')}  className={currentPage === 'Contact' ? ' active' : ''}>
+        <a href = '#contact' onClick={()=>handlePageChange('Contact')} >
           Contact
         </a> 
         
