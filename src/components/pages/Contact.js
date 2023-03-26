@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {Button}  from 'react-bootstrap';
 import '../../css/Contact.css';
+import { checkName, checkMessage, validateEmail } from '../../utils/helpers';
 
 export default function Contact() {
   const [Name, setName] = useState('');
@@ -22,13 +23,17 @@ export default function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // Alert the user their first and last name, clear the inputs
+    if (!(validateEmail(Email) && checkName(Name) && checkMessage(Message))) {
+      alert('Oops, Please fill all fields and make sure to use vaild email address.')
+      return;
+    }  
+      // Alert the user their first and last name, clear the inputs
     alert(`Hello ${Name},\nThank you for your message, I look forward to further communications with you in the future.`);
     setName('');
     setEmail('');
     setMessage('');
   };
-  
+
   return (
     <div className='container'>
         <h2>Contact</h2>
