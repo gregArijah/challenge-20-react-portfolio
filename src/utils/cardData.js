@@ -2,9 +2,18 @@ import React from 'react';
 import runbuddy from '../images/runbuddy.jpg'
 import ledwall from '../images/ledwall.jpg'
 import calc from '../images/calc.jpg'
+import emperor from '../images/emperor.JPG'
+
 
 // data for the portfolio section
 const cardData = [
+  {
+    title: "Emperor's Dish",
+    image: emperor,
+    description: 'Restaurant app designed to streamline order and payment processing',
+    app: 'https://emperors-dish-app.herokuapp.com/',
+    repo: 'https://github.com/JASKIRAT29/emperors-dish-app'
+  },
   {
     title: 'eVie',
     image: 'https://yerimechoi.github.io/eVie/Assets/evie.png',
